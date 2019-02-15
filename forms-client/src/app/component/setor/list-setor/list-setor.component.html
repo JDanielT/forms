@@ -1,0 +1,16 @@
+<h2>Setores</h2>
+
+<table>
+  <thead>
+    <tr>
+      <td>Sigla</td>
+      <td>Nome</td>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let item of getList()" >
+      <td>{{item.sigla}}</td>
+      <td>{{item.nome}}</td>
+    </tr>
+  </tbody>
+</table>

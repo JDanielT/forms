@@ -1,0 +1,23 @@
+<h3>Setor</h3>
+
+
+<form (ngSubmit)="submit()" >
+
+  <label>Sigla</label>
+  <input name="sigla"
+         ([ngModel])="entity.sigla"
+         required />
+
+  <br/>
+
+  <label>Nome</label>
+  <input name="nome"
+         ([ngModel])="entity.nome"
+         required />
+
+  <br/>
+
+
+  <button type="submit" >Salvar</button>
+
+</form>
